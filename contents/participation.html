@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../markbind/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="../markbind/glyphicons/css/bootstrap-glyphicons.min.css">
   <link rel="stylesheet" href="../markbind/css/octicons.css">
-  <link rel="stylesheet" href="../markbind/css/codeblock-dark.min.css">
+  <link rel="stylesheet" href="../markbind/css/codeblock-light.min.css">
   <link rel="stylesheet" href="../markbind/css/markbind.min.css">
   <script src="../markbind/js/polyfill.min.js"></script>
   <script src="../markbind/js/vue.min.js"></script>
@@ -64,13 +64,299 @@
                 <li><span class="badge badge-danger"><s>N</s></span> : you did not earn <em>any</em> participation points for week <code class="hljs inline no-lang" v-pre>N</code></li>
               </ul>
             </li>
-            <li>If you have queries about the participation marks, please email <code class="hljs inline no-lang" v-pre>tic4002@comp.nus.edu.sg</code>.
+            <li>If you have queries about the participation marks, please email <code class="hljs inline no-lang" v-pre>tic4002@comp.nus.edu.sg</code>.</li>
+            <li>This dashboard is <strong>updated weekly</strong>.
             </li>
           </ul>
         </box>
 
         <div>
-          <p><span class="dimmed">[No data yet]</span></p>
+          <p><span class="dimmed">[This page was last updated on Jan 22 2021]</span></p>
+          <div class="table-responsive">
+            <table class="markbind-table table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">Student number (partial)</span>Student</span></th>
+                  <th><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., participation status of each week → total weeks in which you met the participation bar</span>Weeks participated</span></th>
+                  <th><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">Activities participated in</span>Activities</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>A0120420_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0120420"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0137851_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0137851"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-danger mr-1"><s>1</s></span> → <strong>0</strong></td>
+                  <td>W1:</td>
+                </tr>
+                <tr>
+                  <td>A0150565_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0150565"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-danger mr-1"><s>1</s></span> → <strong>0</strong></td>
+                  <td>W1:</td>
+                </tr>
+                <tr>
+                  <td>A0177716_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177716"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177727_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177727"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177732_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177732"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177740_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177740"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177754_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177754"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177784_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177784"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177802_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177802"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177807_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177807"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177809_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177809"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177810_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177810"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177820_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177820"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-danger mr-1"><s>1</s></span> → <strong>0</strong></td>
+                  <td>W1:</td>
+                </tr>
+                <tr>
+                  <td>A0177968_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177968"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-danger mr-1"><s>1</s></span> → <strong>0</strong></td>
+                  <td>W1:</td>
+                </tr>
+                <tr>
+                  <td>A0177971_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177971"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+                <tr>
+                  <td>A0177989_ <span class="dimmed">
+                      <trigger trigger="click" for="modal:pD-A0177989"><span><span aria-hidden="true" class="fas fa-info-circle"></span></span></trigger>
+                    </span></td>
+                  <td><span class="badge badge-success mr-1">1</span> → <strong>1</strong></td>
+                  <td>W1:<span class="badge badge-light text-success"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></span>S</span></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <b-modal id="modal:pD-A0120420" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0120420"><template slot="modal-title">A0120420_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points"><span id="week-1-2-2-points" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0137851" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0137851"><template slot="modal-title">A0137851_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-2"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-2" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-2" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-0-2-points"><span id="week-1-0-2-points" class="anchor"></span>Week <span class="badge badge-danger mr-1"><s>1</s></span>: <small>0/2 points</small><a class="fa fa-anchor" href="#week-1-0-2-points" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: not done <span class="dimmed">(0/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0150565" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0150565"><template slot="modal-title">A0150565_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-3"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-3" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-3" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-0-2-points-2"><span id="week-1-0-2-points-2" class="anchor"></span>Week <span class="badge badge-danger mr-1"><s>1</s></span>: <small>0/2 points</small><a class="fa fa-anchor" href="#week-1-0-2-points-2" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: not done <span class="dimmed">(0/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177716" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177716"><template slot="modal-title">A0177716_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-4"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-4" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-4" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-2"><span id="week-1-2-2-points-2" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-2" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177727" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177727"><template slot="modal-title">A0177727_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-5"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-5" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-5" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-3"><span id="week-1-2-2-points-3" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-3" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177732" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177732"><template slot="modal-title">A0177732_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-6"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-6" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-6" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-4"><span id="week-1-2-2-points-4" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-4" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177740" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177740"><template slot="modal-title">A0177740_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-7"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-7" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-7" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-5"><span id="week-1-2-2-points-5" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-5" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177754" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177754"><template slot="modal-title">A0177754_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-8"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-8" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-8" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-6"><span id="week-1-2-2-points-6" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-6" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177784" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177784"><template slot="modal-title">A0177784_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-9"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-9" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-9" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-7"><span id="week-1-2-2-points-7" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-7" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177802" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177802"><template slot="modal-title">A0177802_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-10"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-10" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-10" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-8"><span id="week-1-2-2-points-8" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-8" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177807" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177807"><template slot="modal-title">A0177807_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-11"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-11" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-11" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-9"><span id="week-1-2-2-points-9" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-9" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177809" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177809"><template slot="modal-title">A0177809_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-12"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-12" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-12" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-10"><span id="week-1-2-2-points-10" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-10" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177810" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177810"><template slot="modal-title">A0177810_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-13"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-13" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-13" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-11"><span id="week-1-2-2-points-11" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-11" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177820" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177820"><template slot="modal-title">A0177820_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-14"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-14" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-14" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-0-2-points-3"><span id="week-1-0-2-points-3" class="anchor"></span>Week <span class="badge badge-danger mr-1"><s>1</s></span>: <small>0/2 points</small><a class="fa fa-anchor" href="#week-1-0-2-points-3" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: not done <span class="dimmed">(0/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177968" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177968"><template slot="modal-title">A0177968_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-15"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-15" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-15" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-0-2-points-4"><span id="week-1-0-2-points-4" class="anchor"></span>Week <span class="badge badge-danger mr-1"><s>1</s></span>: <small>0/2 points</small><a class="fa fa-anchor" href="#week-1-0-2-points-4" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: not done <span class="dimmed">(0/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177971" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177971"><template slot="modal-title">A0177971_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-16"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-16" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-16" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-12"><span id="week-1-2-2-points-12" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-12" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
+          <b-modal id="modal:pD-A0177989" hide-footer size="lg" modal-class="mb-zoom" ref="modal:pD-A0177989"><template slot="modal-title">A0177989_: Participation Details</template>
+            <h4 id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-17"><span id="weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-17" class="anchor"></span>Weekly Participation <span class="dimmed">(programming exercises, post-lecture quizzes, admin tasks etc.)</span><a class="fa fa-anchor" href="#weekly-participation-programming-exercises-post-lecture-quizzes-admin-tasks-etc-17" onclick="event.stopPropagation()"></a></h4>
+            <div class="indented">
+              <h5 id="week-1-2-2-points-13"><span id="week-1-2-2-points-13" class="anchor"></span>Week <span class="badge badge-success mr-1">1</span>: <small>2/2 points</small><a class="fa fa-anchor" href="#week-1-2-2-points-13" onclick="event.stopPropagation()"></a></h5>
+              <ul>
+                <li><strong>Submit pre-module survey</strong>: done <span class="dimmed">(2/2 points)</span></li>
+              </ul>
+            </div>
+          </b-modal>
         </div>
         <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p>
       </div>
@@ -78,7 +364,7 @@
     <footer>
 
       <div class="text-center">
-        <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Wed, 30 Dec 2020, 1:20:01 GMT+8]</small>
+        <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sat, 23 Jan 2021, 16:25:37 GMT+8]</small>
       </div>
     </footer>
   </div>
